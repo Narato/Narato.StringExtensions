@@ -10,7 +10,6 @@
       "version": "1.0.0",
       "type": "platform"
     },
-    "NLog.Extensions.Logging": "1.0.0-rtm-alpha4",
     "NETStandard.Library": "1.6.0",
     "Newtonsoft.Json": "9.0.1"
   },
@@ -28,6 +27,6 @@
   "packOptions": {
     "owners": [ "Narato" ],
     "iconUrl": "http://narato.be/wp-content/uploads/2016/11/narato-icon-logo-64x64-transparant.png",
-    "tags": [ "Narato", "Utils", "LogExtensions" ]
+    "tags": [ "Narato", "Utils", "StringExtensions" ]
   }
 }
