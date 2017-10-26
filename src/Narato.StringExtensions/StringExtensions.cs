@@ -26,6 +26,11 @@ namespace Narato.StringExtensions
             return JsonConvert.DeserializeObject<T>(json, converters);
         }
 
+        public static T FromJson<T>(this string json, JsonSerializerSettings settings)
+        { 
+            return JsonConvert.DeserializeObject<T>(json, settings);
+        }
+
         public static string EncodeJson(this string value)
         {
             return string.Concat
