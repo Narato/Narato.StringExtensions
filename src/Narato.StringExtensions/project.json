@@ -1,5 +1,5 @@
 ﻿{
-  "version": "1.0.1-*",
+  "version": "1.0.2-*",
   "title": "Narato.StringExtensions",
   "description": "Contains some utils extensions placed on String. A QOL library",
   "authors": [ "Narato - http://www.narato.be" ],
