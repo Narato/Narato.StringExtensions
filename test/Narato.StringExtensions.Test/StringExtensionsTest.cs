@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿using Newtonsoft.Json;
+using Xunit;
 
 namespace Narato.StringExtensions.Test
 {
@@ -14,6 +15,19 @@ namespace Narato.StringExtensions.Test
         public void ToJsonSimpleTest()
         {
             Assert.Equal("[\"5\"]", new string[] {"5"}.ToJson());
+        }
+
+        [Fact]
+        public void ToJsonNonDefaultSettingsTest()
+        {
+            var obj = new
+            {
+                FIRSTNAME = 1,
+                NIco = 2,
+                Florian = 3,
+                rRNnumber = 4
+            };
+            Assert.Equal("{\"FIRSTNAME\":1,\"NIco\":2,\"Florian\":3,\"rRNnumber\":4}", obj.ToJson(new JsonSerializerSettings()));
         }
 
         [Fact]

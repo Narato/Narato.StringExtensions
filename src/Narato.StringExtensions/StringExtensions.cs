@@ -10,13 +10,16 @@ namespace Narato.StringExtensions
     {
         /// <summary>Serializes the object to a JSON string.</summary>
         /// <returns>A JSON string representation of the object.</returns>
-        public static string ToJson<T>(this T value)
+        public static string ToJson<T>(this T value, JsonSerializerSettings settings = null)
         {
-            var settings = new JsonSerializerSettings
+            if (settings == null)
             {
-                ContractResolver = new CamelCasePropertyNamesContractResolver(),
-                Converters = new List<JsonConverter> { new StringEnumConverter() }
-            };
+                settings = new JsonSerializerSettings
+                {
+                    ContractResolver = new CamelCasePropertyNamesContractResolver(),
+                    Converters = new List<JsonConverter> { new StringEnumConverter() }
+                };
+            }
 
             return JsonConvert.SerializeObject(value, settings);
         }
