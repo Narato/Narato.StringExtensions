@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Contains some utils extensions placed on String. A QOL library</Description>
+    <AssemblyTitle>Narato.StringExtensions</AssemblyTitle>
+    <NeutralLanguage>en-us</NeutralLanguage>
+    <VersionPrefix>2.0.0</VersionPrefix>
+    <Authors>Narato - http://www.narato.be</Authors>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>Narato.StringExtensions</AssemblyName>
+    <PackageId>Narato.StringExtensions</PackageId>
+    <PackageTags>Narato;Utils;StringExtensions</PackageTags>
+    <PackageIconUrl>http://narato.be/wp-content/uploads/2016/11/narato-icon-logo-64x64-transparant.png</PackageIconUrl>
+    <NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
+    <AssetTargetFallback>$(AssetTargetFallback);dotnet5.6;dnxcore50;portable-net45+win8</AssetTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+</Project>

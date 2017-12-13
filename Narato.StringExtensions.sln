@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Narato.StringExtensions", "src\Narato.StringExtensions\Narato.StringExtensions.xproj", "{CA290065-200D-4A96-95C1-8E8F5DA35912}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3FFCA2CA-A2E6-4CBA-BEBD-27B0A08F9963}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BCCC11B5-E9F1-495D-B46F-C8B5E85A71EC}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Narato.StringExtensions.Test", "test\Narato.StringExtensions.Test\Narato.StringExtensions.Test.xproj", "{710A9B78-A6F3-4D6E-83B6-17C09656ACC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Narato.StringExtensions", "src\Narato.StringExtensions\Narato.StringExtensions.csproj", "{CA290065-200D-4A96-95C1-8E8F5DA35912}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Narato.StringExtensions.Test", "test\Narato.StringExtensions.Test\Narato.StringExtensions.Test.csproj", "{710A9B78-A6F3-4D6E-83B6-17C09656ACC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,5 +32,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{CA290065-200D-4A96-95C1-8E8F5DA35912} = {3FFCA2CA-A2E6-4CBA-BEBD-27B0A08F9963}
 		{710A9B78-A6F3-4D6E-83B6-17C09656ACC0} = {BCCC11B5-E9F1-495D-B46F-C8B5E85A71EC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B909F29-8608-43BD-BA9A-327F31040924}
 	EndGlobalSection
 EndGlobal
