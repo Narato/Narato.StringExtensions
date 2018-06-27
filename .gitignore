@@ -7,3 +7,7 @@ UnitTestCoverage_Report/
 bin/
 obj/
 */launchSettings.json
+
+# JetBrains Rider
+.idea/
+*.sln.iml
