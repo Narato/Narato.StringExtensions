@@ -3,9 +3,9 @@
     <Description>Contains some utils extensions placed on String. A QOL library</Description>
     <AssemblyTitle>Narato.StringExtensions</AssemblyTitle>
     <NeutralLanguage>en-us</NeutralLanguage>
-    <VersionPrefix>2.0.1</VersionPrefix>
+    <VersionPrefix>2.0.2</VersionPrefix>
     <Authors>Narato - http://www.narato.be</Authors>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net45;net46</TargetFrameworks>
     <AssemblyName>Narato.StringExtensions</AssemblyName>
     <PackageId>Narato.StringExtensions</PackageId>
     <PackageTags>Narato;Utils;StringExtensions</PackageTags>
